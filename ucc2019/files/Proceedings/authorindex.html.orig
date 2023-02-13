@@ -1,0 +1,843 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<style type="text/css">
+
+#myreel{ /*sample CSS for demo*/
+border:15px solid black;
+}
+
+.paginate{
+width: 330px;
+margin-top:5px;
+font:bold 14px Arial;
+text-align:center;
+}
+
+</style>
+
+<script src="reelslideshow.js" type="text/javascript">
+
+/***********************************************
+* Continuous Reel Slideshow- � Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var firstreel=new reelslideshow({
+	wrapperid: "myreel", //ID of blank DIV on page to house Slideshow
+	dimensions: [300, 200], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["http://i26.tinypic.com/11l7ls0.jpg"], //["image_path", "optional_link", "optional_target"]
+		["http://i29.tinypic.com/xp3hns.jpg", "http://en.wikipedia.org/wiki/Cave", "_new"],
+		["http://i30.tinypic.com/531q3n.jpg"],
+		["http://i31.tinypic.com/119w28m.jpg"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2000, cycles:2, pauseonmouseover:true},
+	orientation: "h", //Valid values: "h" or "v"
+	persist: true, //remember last viewed slide and recall within same session?
+	slideduration: 300 //transition duration (milliseconds)
+})
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Author Index</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0in;
+	margin-bottom: 0px;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+#Layer1 {
+	position:absolute;
+	left:419px;
+	top:864px;
+	width:177px;
+	height:18px;
+	z-index:1;
+}
+#Layer2 {
+	position:absolute;
+	left:155px;
+	top:433px;
+	width:161px;
+	height:117px;
+	z-index:1;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #660000;
+	text-decoration: none;
+}
+a:hover {
+	color: #990000;
+	text-decoration: none;
+}
+a:active {
+	color: #330066;
+	text-decoration: none;
+}
+-->
+</style>
+
+<script type="text/JavaScript">
+<!--
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+p.CM39 {
+margin-top:0in;
+margin-right:0in;
+margin-bottom:16.9pt;
+margin-left:0in;
+text-autospace:none;
+font-size:12.0pt;
+font-family:"Times New Roman","serif";
+}
+p.CM42 {
+margin-top:0in;
+margin-right:0in;
+margin-bottom:4.4pt;
+margin-left:0in;
+text-autospace:none;
+font-size:12.0pt;
+font-family:"Times New Roman","serif";
+}
+p.ChapterHead {
+margin:0in;
+margin-bottom:.0001pt;
+text-autospace:none;
+font-size:11.0pt;
+font-family:"Times New Roman","serif";
+color:red;
+font-style:italic;
+}
+p.AuthorName {
+margin-top:0in;
+margin-right:0in;
+margin-bottom:12.0pt;
+margin-left:0in;
+text-autospace:none;
+font-size:11.0pt;
+font-family:"Times New Roman","serif";
+}
+-->
+</style>
+<style type="text/css">
+<!--
+p.CM17 {
+margin:0in;
+margin-bottom:.0001pt;
+line-height:16.8pt;
+text-autospace:none;
+font-size:12.0pt;
+font-family:"Times New Roman","serif";
+}
+p.CM37 {
+margin-top:0in;
+margin-right:0in;
+margin-bottom:12.9pt;
+margin-left:0in;
+text-autospace:none;
+font-size:12.0pt;
+font-family:"Times New Roman","serif";
+}
+p.CM38 {
+margin-top:0in;
+margin-right:0in;
+margin-bottom:9.15pt;
+margin-left:0in;
+text-autospace:none;
+font-size:12.0pt;
+font-family:"Times New Roman","serif";
+}
+p.CM20 {
+margin:0in;
+margin-bottom:.0001pt;
+line-height:13.0pt;
+text-autospace:none;
+font-size:12.0pt;
+font-family:"Times New Roman","serif";
+}
+p.CM21 {
+margin:0in;
+margin-bottom:.0001pt;
+line-height:13.0pt;
+text-autospace:none;
+font-size:12.0pt;
+font-family:"Times New Roman","serif";
+}
+p.Default {
+margin:0in;
+margin-bottom:.0001pt;
+text-autospace:none;
+font-size:12.0pt;
+font-family:"Times New Roman","serif";
+color:black;
+}
+p.CM27 {
+margin:0in;
+margin-bottom:.0001pt;
+line-height:14.9pt;
+text-autospace:none;
+font-size:12.0pt;
+font-family:"Times New Roman","serif";
+}
+.style82 {font-family: "Trebuchet MS"; color: #0000FF; }
+.style84 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #0000FF;
+}
+.style85 {color: #0000FF}
+.style86 {font-style: italic}
+.style87 {font-style: italic}
+.style88 {font-style: italic}
+.style89 {font-style: italic}
+.style90 {font-style: italic}
+.style91 {font-style: italic}
+.style92 {font-style: italic}
+.style93 {font-style: italic}
+.style94 {font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; color: #0000FF; font-style: italic; }
+.style95 {font-style: italic}
+.style96 {font-style: italic}
+.style97 {font-style: italic}
+.style98 {font-style: italic}
+.style99 {font-style: italic}
+.style100 {font-style: italic}
+.style101 {font-style: italic}
+.style102 {font-style: italic}
+.style103 {font-style: italic}
+.style104 {font-style: italic}
+.style105 {font-style: italic}
+.style106 {font-style: italic}
+.style107 {font-style: italic}
+.style108 {font-style: italic}
+.style109 {font-style: italic}
+.style110 {font-style: italic}
+.style111 {font-style: italic}
+.style112 {font-style: italic}
+.style113 {font-style: italic}
+.style114 {font-style: italic}
+.style115 {font-style: italic}
+-->
+</style>
+</head><body onload="MM_preloadImages('1.1.png','2.2.png','3.3.png','4.4.png','5.5.png')">
+<a name="top">
+<table width="851" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr bgcolor="#5680EB">
+    <td width="837" align="center" valign="top" bgcolor="#FFFFFF" scope="col"><div align="center">
+      <div align="center"><img src="home.gif" width="1073" height="174" /></div>
+      <div align="center"> </div>
+      <table width="1073" border="0">
+        <tr>
+          <td width="204" height="21"><marquee behavior="alternate">
+            </marquee>
+          </td>
+          <td width="859" height="21"><table width="856" border="1" align="center" bordercolor="#666666" bgcolor="#996600">
+              <tr bordercolor="#FFFFFF" bgcolor="#999999">
+                <td width="25" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html" target="_parent">A</a></div></td>
+                <td width="25" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_B" target="_parent">B</a></div></td>
+                <td width="28" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_C" target="_parent">C</a></div></td>
+                <td width="28" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_D" target="_parent">D</a></div></td>
+                <td width="25" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_E" target="_parent">E</a></div></td>
+                <td width="23" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_F" target="_parent">F</a></div></td>
+                <td width="30" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_G" target="_parent">G</a></div></td>
+                <td width="28" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_H" target="_parent">H</a></div></td>
+                <td width="21" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_I" target="_parent">I</a></div></td>
+                <td width="22" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_J" target="_parent">J</a></div></td>
+                <td width="24" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_K" target="_parent">K</a></div></td>
+                <td width="26" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_L" target="_parent">L</a></div></td>
+                <td width="27" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_M" target="_parent">M</a></div></td>
+                <td width="24" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_N" target="_parent">N</a></div></td>
+                <td width="30" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_O" target="_parent">O</a></div></td>
+                <td width="25" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_P" target="_parent">P</a></div></td>
+                <td width="30" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_Q" target="_parent">Q</a></div></td>
+                <td width="25" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_R" target="_parent">R</a></div></td>
+                <td width="23" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_S" target="_parent">S</a></div></td>
+                <td width="25" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_T" target="_parent">T</a></div></td>
+                <td width="33" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_U" target="_parent">U</a></div></td>
+                <td width="28" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_V" target="_parent">V</a></div></td>
+                <td width="30" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_W" target="_parent">W</a></div></td>
+                <td width="31" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_X" target="_parent">X</a></div></td>
+                <td width="28" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_Y" target="_parent">Y</a></div></td>
+                <td width="32" bgcolor="#996633"><div align="center" class="style82"><a href="authorindex.html#name_Z" target="_parent">Z</a></div></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table>
+      <table width="1073" border="0" align="center">
+        <tr>
+          <td width="203" valign="top"><table width="147" border="0">
+              <tr>
+                <td width="141"><a href="Homepage.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','1.1.png',1)"><img src="1.png" name="Image13" width="189" height="26" border="0" id="Image13" /></a></td>
+              </tr>
+              <tr>
+                <td><a href="contents.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image14','','2.2.png',1)"><img src="2.png" name="Image14" width="189" height="26" border="0" id="Image14" /></a></td>
+              </tr>
+              <tr>
+                <td><a href="sessions.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image15','','3.3.png',1)"><img src="3.png" name="Image15" width="189" height="26" border="0" id="Image15" /></a></td>
+              </tr>
+              <tr>
+                <td><a href="authorindex.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image16','','4.4.png',1)"><img src="4.png" name="Image16" width="189" height="26" border="0" id="Image16" /></a></td>
+              </tr>
+              <tr>
+                <td><a href="keywords.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image17','','5.5.png',1)"><img src="5.png" name="Image17" width="189" height="26" border="0" id="Image17" /></a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+          </table></td>
+          <td width="860" valign="top">
+					<a name="name_A">
+					<p align='left'><span class='style84'>A K Sharma ,B S Kaith</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-302.pdf' target='_blank'>Applications Of Some Smart Materials Based Release Devices For Health And Safety Purpose </a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>A Manoj ,K S Babu Narayan</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-128.pdf' target='_blank'>Proper Orthogonal Decomposition  For  Generation Of Organized Data In Concrete Technology
+</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>A Samal  ,S S Pradhan</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-153.pdf' target='_blank'>Experimental Study On Mechanical Properties Of Sisal, Jute And Banana Fiber Hybrid Composite</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>A. Fuzail Hashmi ,M. Shariq  ,A. Baqi</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1031.pdf' target='_blank'>An Overview On Creep And Shrinkage Deflection Of Admixture Based Concrete </a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>A. R. Parmar ,D.S. Patel ,P.S. Mehta ,T.M. Joshi ,U.V. Dave</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1022.pdf' target='_blank'>Evaluation Of Infiltration Rate Of Pervious Concrete Pavement Model By Varying Perforation Patterns Of Pipes</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>A.Sofi ,Abhinav Bhatt</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1040.pdf' target='_blank'>Studies On Ceramic Waste, Fly Ash, Silica Fume In Porous Concrete</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Aamir Riyaz Dar ,Simranjit Singh ,Baljot Kaur</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-238.pdf' target='_blank'>Partial Replacement Of Carbon Soot With Cement (Chimney Soot)</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Abdul Haseeb Wani ,Shruti Sharma ,Rafat Siddique</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1004.pdf' target='_blank'>Evaluation Of Fresh, Strength And Durability Properties Of Self-Compacting Concrete Incorporating Bagasse Ash</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Aditi Chauhan ,Jashanpreet Singh Narang  ,Umesh Kumar Sharma ,Rajib Chowdhury</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-239.pdf' target='_blank'>Durability Performance Of Nano-Silica Based High Performance Concrete</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Ajay P Shelorkar , Pradip D Jadhao</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-158.pdf' target='_blank'>Sorptivity Of Slurry Infiltrated Fiber Concrete Containing Fly Ash And Metakaolin</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Amad Ur Rehman Bohroo  ,Mandeep Kaur ,Kanish Kapoor ,R L Riyar</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-130.pdf' target='_blank'>Effect Of Beneficiated Recycled Concrete Aggregates On Properties Of New Concrete</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Anand B. Zanwar ,Yogesh D. Patil</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-147.pdf' target='_blank'>Utilization Of Glass Powder As A Cementitious Material In Mortar</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Andy Smith</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1A-Andy Smith-Keynote-Conf-6.pdf' target='_blank'>Technical Education for your Workforce: Concrete Sector Distance Learning within Higher Education in the UK   </a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Aniket A Shirgaonkar ,Yogesh D Patil  , Hemant S Patil</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-424.pdf' target='_blank'>Behaviour Of Profiled Deck Composite Slab: State Of Art Report</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Anjani Bhardwaj ,Navdeep Singh</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1017.pdf' target='_blank'>Effect Of Coal Bottom Ash On Fresh Properties Of Normally Vibrated Concrete</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Anju H Alex  ,Kruthi K Ramagiri , ArkamitraKar</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-121.pdf' target='_blank'>Correlation Between Microstructural Characteristics And Specimen-Level Shrinkage Of Alkali-Activated Binder Concrete</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Ankeeta Acharekar ,Purnanand Savoikar</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-303.pdf' target='_blank'>Fabric As Flexible Formwork</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Ankur M Goyal ,Tejpal Goda ,Siddharth Shah</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-504.pdf' target='_blank'>Evaluation Of Distresses In Rcc Frame Structure; Case Study Of School Building At Bhimora</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Ashis Kumar Panda ,B Bhattacharjee</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1037.pdf' target='_blank'>Portland Cement Activated Geopolymer Paste And Mortar</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Ashish Simalti ,A P Singh</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1024.pdf' target='_blank'>Mix Proportioning Of Recycled Steel Fiber Reinforced Self Compacting Concrete</a></em></span></strong></span></p><hr/>
+					<a name="name_B">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>B B Das  ,Sharan Kumar Goudar  ,P P Kiran Ram  ,A Gokul  ,S B Arya</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-244.pdf' target='_blank'>Bond Strength And Corrosion Resistance Of Reinforced Concrete Exposed To Simulated Acidic And Alkaline Marine Environment</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>B B Das , K N Shivaprasad  ,</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-245.pdf' target='_blank'>Compressive Strength Of Concrete With Artificially Produced Fly Ash Aggregates</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>B Bhattacharjee</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1A-B Bhattacharjee-Keynote-Conf-3.pdf' target='_blank'>Multi-Functional Performance of Precast Planer Elements and Sustainability</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>B Dehuri ,S S Pradhan</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-154.pdf' target='_blank'>Experimental Investigation On Bonded Composite Patch Repair For An Edge-Cracked Aa 1080 Aluminium Alloy Plate
+</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>B. B. Das ,Snehal K  ,Archana Dinesh T</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-243.pdf' target='_blank'>Experimental Investigation On The Influence Of Phase Change Material (Pcm) On The Properties Of Cement Mortar</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>B. BalaKalyan Sharath Kumar ,Shaziya</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-601.pdf' target='_blank'>Concrete Mix Design Using Particle Packing Model</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Baban Kumar</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-210.pdf' target='_blank'>Bacteria Induced Self-Healing Concrete-A Review</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Babanpreet Singh Saini ,S P Singh ,Karanpreet Singh Saini</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-234.pdf' target='_blank'>Acid Resistance Of Fly Ash Based Geopolymer Concrete</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Balbir Singh Kaith  ,Amit Kumar Sharma</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-122.pdf' target='_blank'>Applications Of Polymer Reinforced Composites In Building Materials </a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Banuru Raghavender ,Ramanand Shukla , Roopak Sasikumar  ,Dipendu Bhunia</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1041.pdf' target='_blank'>Study Of Seismic Response Of 12 Storey Rcc Building Considering Infill Panels As Per Indian Standards</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Bhupesh Kumar Gupta , Mandeep Kaur  ,Mudasir Nazeer  ,Kanish Kapoor</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-126.pdf' target='_blank'>Influence Of Plastic Aggregate On Behaviour Of Concrete</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Bindhu K R ,Anisha Thomas  ,Madhuri K G</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-417.pdf' target='_blank'>Seismic Performance Of Shear Wall With Debonded Reinforcement</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Bindurani P ,N Ganesan ,P V Indira</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-505.pdf' target='_blank'>Rehabilitation Of Rcc Flexural Members Using Frp And Ferrocement Overlays</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Blessen Skariah Thomas ,Ramesh Chandra Gupta</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1039.pdf' target='_blank'>Abrasion Resistance Of Cement Concrete Containing Waste Tire Rubber</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Brajkishor Prasad ,Virendra Kumar ,Prince Singh</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-231.pdf' target='_blank'>Utilisation Of Ld Slagas Aggregate In Construction Industry</a></em></span></strong></span></p><hr/>
+					<a name="name_C">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>C Q Lye</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1C-C Q Lye-Keynote-Conf-4.pdf' target='_blank'>Deformation Properties of Concrete made with Recycle Aggregate</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Chanakya Arya</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1A-C Arya-Keynote-Conf-5.pdf' target='_blank'>Condition Assessment and Protection of Concrete Structures against Corrosion: Do Cracks Matter?</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Chinmaya Kumar Mahapatra  ,Sudhirkumar V. Barai</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1050.pdf' target='_blank'>Temperature Rise Effect On Hybrid Fiber Reinforced Self Compacting Concrete Using Waste Materials
+</a></em></span></strong></span></p><hr/>
+					<a name="name_D">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>D. N. Gamage ,G. Tharmarajah</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-143.pdf' target='_blank'>Lightweight Non-Load Bearing Blocks Using Expanded Polystyrene Beads</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Darshap Chokshi ,Urmil Dave ,Kaizad Engineer</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-514.pdf' target='_blank'>Use Of Cementitious Composites For Enhancing Performance Of Rc Beams Against Fire Exposure</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>David Collery</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1B-D Collory-Keynote-Conf-4.pdf' target='_blank'>Building on a Performance-Related Approach to Using Normal Weight Aggregates in Concrete - Recycled Aggregates</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>David Dunne</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1B-D Dunne-Keynote-Conf-5.pdf' target='_blank'>Asset Management: Local Problems, Global Solutions</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Deborah L Chung</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/0-D L Chung-Opening Paper-Conf-2.pdf' target='_blank'>Multifunctional Cement-Based Materials</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Deep Tripathi ,Rakesh Kumar , P.K. Mehta</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-197.pdf' target='_blank'>Performance Improvement Of Self Compacting Concrete: A Review</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Deepak N Nathe ,Yogesh D Patil</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-196.pdf' target='_blank'>Assessment Of Residual Strength Of Normal Concrete At Elevated Temperatures After Hot And Normal Water Quenching</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Digvijay S. Chouhan ,Trilok Gupta ,Ravi K. Sharma</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-142.pdf' target='_blank'>Fresh And Hardened Properties Of Granite Slurry Concrete Incorporating Metakaolin </a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Dr K Paine</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1A-K Paine-Keynote-Conf-2.pdf' target='_blank'>Resilient Materials for Life: Biomimetic Self-Healing and Self-Diagnosing Concretes</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Dr L Pelecanos</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1B-L Pelecanos-Keynote-Conf-2.pdf' target='_blank'>The effects of concrete stiffness and strength on the seismic response of reinforced concrete frame buildings</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Dr. Sanjay Kumar ,Mr.S.Jeeva Chithambaram  ,Mr. Manish Kumar ,Prof.M.M. Prasad</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-149.pdf' target='_blank'>Strength Performance Of Geopolymer Concrete Exposed To Elevated Temperature</a></em></span></strong></span></p><hr/>
+					<a name="name_E">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>Eleane Lisa Da Costa ,Purnanand Savoikar</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-511.pdf' target='_blank'>Fire Analysis Of Steel Bridge Girders Using Ansys</a></em></span></strong></span></p><hr/>
+					<a name="name_F">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>Farzam Omidimoaf ,Ali M.Rajabi  ,Hakim S Abdelgader</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1043.pdf' target='_blank'>Effect Of Coarse Grain Aggregate On Strength Parameters Of Preplaced Aggregate Concrete</a></em></span></strong></span></p><hr/>
+
+					<a name="name_G">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>G C Behera</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-419.pdf' target='_blank'>Torsional Toughness Of Ferrocement “U” Wrapped Rc Beams: A Comparative Study  </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>G S Ghataora</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1B-Gurmel Singh-Keynote-Conf-6.pdf' target='_blank'>Value of Postgraduate Education </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>G.C Shirojith ,C.J. Seneviratne   ,G. Tharmarajah</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-144.pdf' target='_blank'>Physical, Mechanical Properties And Workability Improvement Of Pine Fiber Reinforced Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Gautam Dadhich ,H S Patel ,Mukesh A Patel</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-415.pdf' target='_blank'>Treatment Of Distressed Urban Roads Using Ultrathin White-Topping: A Case Study Of Daman City (U.T.), India</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Gopinandan Dey  ,Debasree Das ,</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-236.pdf' target='_blank'>Effect Of Size Of Specimen On Strength Of Concrete And Comparison With Nondestructive Testing Method: An Experimental Study</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Govind Bhagat ,Purnanand Savoikar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-170.pdf' target='_blank'>An Overview Of Effect Of Nano-Material Modifications In Non-Conventional Concretes And Mortars </a></em></span></strong></span></p><hr/>
+					<a name="name_H">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>Harish Choudhary ,Arham Siddique ,Saha Dauji</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-145.pdf' target='_blank'>Effect Of Crusher Fines On Strength And Workability Of Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Harpal Singh ,Akash Aneja</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-401.pdf' target='_blank'>Parametric Study Of Multi Storey Rc Building With Plan Irregularity</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Himanshu ,Nishant ,A Tiwari ,S Narayan</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-146.pdf' target='_blank'>Mix Design Of Self Compacting Concrete Using Lime </a></em></span></strong></span></p><hr/>
+					<a name="name_J">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>J. Pacheco ,J de Brito ,C. Chastre  ,L. Evangelista</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-194.pdf' target='_blank'>Towards The Structural Codification Of Recycled Aggregate Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Jagmeet Singh ,S P Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-228.pdf' target='_blank'>Synthesis Of Alkali-Activated Material Using Copper Slag As Source Of Aluminosilicate</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Jay Viradiya ,Siddharth Shah</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-203.pdf' target='_blank'>The Experimental Study On Damage Detection Measurement Through Piezoresistivity Of Carbon Nano Tube In Cement Mortar</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Jayalakshmi Raju ,Sumit Balguvhar ,Shashank Srivastava ,S K Dhawan ,Suresh Bhalla ,T Visalakshi</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-224.pdf' target='_blank'>Application Of Emi Technique Using Piezo Electric Sensors</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Jian Yang</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1C-J Yang-Keynote-Conf-1.pdf' target='_blank'>Performance of Concrete Incorporating Strengthened Recycled Concrete Aggregate</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Jorge deBrito</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/0-J deBrito-Opening Paper-Conf-1.pdf' target='_blank'>Upscaling the use of Recycled Aggregate Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Josniya Jose , S Sivakumar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-190.pdf' target='_blank'>Statistical Modelling And Validation Of Shear Strength Of Rc Exterior Beam – Column Joints</a></em></span></strong></span></p><hr/>
+					<a name="name_K">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>K C Panda</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-127.pdf' target='_blank'>Effect Of Metakaolin On The Properties Of Coconut Shell Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>K L Bidkar ,P.D. Jadhao</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-101.pdf' target='_blank'>Effect Of Remixing On Strength Of Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>K Paine ,J Harris ,Y Zhou ,J Calabria-Holley</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-214.pdf' target='_blank'>Autogenous Self-Healing Of Fibre Cements</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>K Satya Sai Trimurty Naidu ,M V Seshagiri Rao ,V Srinivasa Reddy</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-222.pdf' target='_blank'>Performance Enhancement Of Light Weight Concrete Using Microbial Induced Calcite Precipitation By Sporosarcina Pasteurii</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>K Senthil , Harsh Kumar ,Shailja Bawa</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-116.pdf' target='_blank'>Studies On Mechanical Properties Of Geopolymer Concrete Using Recycled Concrete Aggregate</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>K Senthil ,D Singh ,P C Emmanuel</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-119.pdf' target='_blank'>Influence Of Basalt Fiber And Recycled Concrete Aggregate On Self Compacting Concrete Against Mechanical And Durability Tests</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>K.P. Singh ,Raman Bedi ,Aditya Bakshi</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-233.pdf' target='_blank'>Effect Of Silane Treatment On The Mechanical Properties Of Polymer Concrete Made With Recycled Pet Resin And Recycled Aggregates</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Kalyana Rama J S ,Saurabh J Patil ,Himanshu Pal</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-173.pdf' target='_blank'>Properties Of Scc With Alccofine, Ggbs And Fly Ash-Plastic Viscosity Approach</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Kamaldeep Kaur ,Jaspal Singh ,Manpreet Kaur</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-166.pdf' target='_blank'>Influence Of Naoh Solution On Compressive Strength Of Rice Husk Ash Based Geopolymer</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Kannam Praveen  ,S Venkateswara  Rao</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1011.pdf' target='_blank'>Prediction Of Theoretical Shear Strength Of Steel Fibre Reinforced Self-Compacting Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Karan Modi  ,Manish Bhutani ,Sanjeev Naval</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-423.pdf' target='_blank'>Evaluation Of Liquefaction Potential As Per Is: 1893 (Part-1)-2016 For Specific Sites Of Kapurthala, Punjab</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Kasturi Bhuyan ,Anil Kumar Sah , Hrishikesh Sharma</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1006.pdf' target='_blank'>Practical Application Of High Strength Concrete Matrix For Use In Defence Establishments</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Kaustav Sarkar , Sneha Das</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1008.pdf' target='_blank'>A Non-Dimensional Fe Model For The Simulation Of Heat Conduction In Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Kolimi Shaiksha Vali ,Bala Murugan S</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-208.pdf' target='_blank'>Effect Of Water And Accelerated Curing On Impact And Compressive Strength Of Artificial Aggregates With Nano Silica</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Korakuti Hanumanthu ,Kaustav Sarkar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-139.pdf' target='_blank'>Sensitivity Of Simulated Water Absorption Characteristics To Empirical Hydraulic Diffusivity Models For Porous Building Materials</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Kuldeep Sharma ,Arvind K Agnihotri ,Ravi Madaan</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-235.pdf' target='_blank'>Strength Behaviour Of Fiber Reinforced Fly Ash</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Kuldeep Sharma ,Manjesh Srivastava ,Vikas Kumar ,Sunayna</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-426.pdf' target='_blank'>To Study The Effect Of Bamboo And Steel As Reinforcement On Structure</a></em></span></strong></span></p><hr/>
+					<a name="name_L">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>Lalit Kumar Gupta ,K. I. Syed Ahmed Kabeer ,Ashok Kumar Vyas</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-191.pdf' target='_blank'>Effect On Physical And Mechanical Properties Of Cement Mortar Prepared With Waste Granite Powder As Secondary Aggregate</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Lomesh S Mahajan  , S R Bhagat</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-241.pdf' target='_blank'>Sustainability Of Concrete Using Flyash And Metakaolin To Save Co2 Emission</a></em></span></strong></span></p><hr/>
+					<a name="name_M">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>M Rameshkumar ,R Malathy ,S Paramasivam</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-249.pdf' target='_blank'>Application Of Polypropylene Non Wovens With Fish Scale In Reinforced Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>M. Suneel  ,K.Jagadeep , P. Venkateswara Rao</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1036.pdf' target='_blank'>Workability And Strength Characteristics Of M60 Grade Concrete By Partial Replacement Of Cement With Nano Tio2</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Mahesh Tandon</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/0-M Tandon-Opening Paper-Conf-3.pdf' target='_blank'>Precast Concrete Construction Technologies for Metro Projects in India</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Manamohan R Kalgal</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/0-M Kalgal-Opening Paper-Conf-4.pdf' target='_blank'>The Role of Concrete in Mass Housing and Road Infrastructure</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Mandeep Kaur ,Jaspal Singh ,Manpreet Kaur</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-165.pdf' target='_blank'>Effect Of Alkali Activator Solution On The Strength Of Fly Ash-Based   Geopolymer Mortar</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Manjunath R ,Mattur C. Narasimhan</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-135.pdf' target='_blank'>Studies On Eco-Friendly Concrete Mixes Incorporating Industrial By-Products</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Manoj Didwania</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-416.pdf' target='_blank'>Industrial Flooring: A Revolution In Concrete Floors-Free Movement (Fm) And Its Importance</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Manu S Nadesan ,Dinakar Pasla</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-132.pdf' target='_blank'>Effect Of Scms On The Durability Properties Of High Strength Lightweight Aggregate Concrete
+					</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Marreddy Himanth Reddy ,Susheel Raja K  ,E Dhanesh ,V Vasugi</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-310.pdf' target='_blank'>Mechanical And Durability Study On Concrete Made With Alkali Activated Fly Ash Aggregates</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Matthew Cruickshank ,Chaaruchandra Korde ,Roger P. West ,John Reddy</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-513.pdf' target='_blank'>Activated Slag For Precast Concrete Hollowcore Slabs: Laboratory Trials And Field Investigation </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Miguel Carrasquel ,Xiaozu Su</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-506.pdf' target='_blank'>Comparison Of Siesmic Retrofitting Guidelines For Reinforce Concrete Structures In Venezuela And India</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>MihirKanti Gop , Gopinandan Dey</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-195.pdf' target='_blank'>An Experimental Study On Strength And Durability Of Concrete With Partial Replacement Of Sand By Crushed Brick Grit</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Mohd Khalid ,Mohd Danish</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-411.pdf' target='_blank'>A Review Of The Scour Management For Mitigating The Bridge Failure</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Mohit Talwar ,Mandeep Singh ,Sudhir Arora</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-226.pdf' target='_blank'>Use Of Marble Chips And Marble Powder In Concrete: A Short Review </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Moray Newlands</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1C-M Newlands-Keynote-Conf-6.pdf' target='_blank'>A Concrete Education: Futureproofing for the Digital World Using Class F Fine and Ultra-Fine Fly Ash </a></em></span></strong></span></p><hr/>
+					<a name="name_N">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>N C Kothiyal ,Himanshu ,Ramanjit Kaur</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-211.pdf' target='_blank'>Hybrid Cnt-Go As Reinforcing Phase In Fly Ash Blended Cement Mortar Nanocomposites And Its Effect On Compressive Strength</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>N P S Talauliker ,Purnanand Savoikar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-512.pdf' target='_blank'>Analysis Of Cfrp Strengthened Reinforced Concrete Structural Members Using Ansys</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Nani Gopal Paul ,Gopinandan Dey ,Surajit Munshi</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1010.pdf' target='_blank'>Resistance Of Chloride Ingress In Cement Mortar Using Rice Straw Ash As Supplementary Cementitious Material</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Nedunuri Sai Surya Sree Aparna ,Ramcharan Palnati  ,Muhammad Salman</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1021.pdf' target='_blank'>Analysis Of The Potential Of Residue From A Food Processing Industry As A Supplementary Cementitious Material </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Nilesh B Salukhe ,Suhasini N Madhekar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-413.pdf' target='_blank'>Effect Of Lateral Torsional Buckling On Web Tapered I-Beams</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Niragi Dave ,Dhruv shah ,Manank Shah ,Kaushal Vora</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-237.pdf' target='_blank'>Physical Properties Of Ternary Binders; Addition Cementitious Materials And Mixing</a></em></span></strong></span></p><hr/>
+					<a name="name_P">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>P L Ng ,H D Li ,D K Mishra  ,J Yu ,C K Y  Leung</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-108.pdf' target='_blank'>Uniaxial Tensile, Flexural And Fibre-Matrix Pull-Out Behaviour Of Ultra-High-Toughness Cementitious Composites</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>P L Ng ,J J Chen ,G X Guan ,S H Chu ,D K Mishra</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-159.pdf' target='_blank'>Addition Of Fillers In Cementitious Paste For Improving Packing Density And Water Film Thickness</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>P Sangamnerkar  ,Prabhat K Soni  , S K Dubey</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-429.pdf' target='_blank'>Pushover Analysis For Assessment Of Structural Behavior Of High Rise Building </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>P Sangamnerkar  ,Prabhat K Soni  , S K Dubey</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-430.pdf' target='_blank'>Design Optimization Of Structural Steel Sections As Per Indian Standard Codes </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Pankaj Narula  ,Kaustav Sarkar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-137.pdf' target='_blank'>Characterisation Of Driving Rain Exposure In
+					India Using Daily Gridded Data
+					</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Paresh Goyal ,Navdeep Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1020.pdf' target='_blank'>Influence Of Recycled Concrete Aggregates And Coal Bottom Ash On Green Properties Of High Volume Fly Ash Based Self Compacting Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Pawan Kumar , Navdeep Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1025.pdf' target='_blank'>Influence Of Recycled Concrete Aggregates And Coal Bottom Ash On Green Properties Of High Volume Fly Ash Based Self Compacting Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Pawan Vijay ,B. Bhattacharjee</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1038.pdf' target='_blank'>Concrete Evaluation Methodology To Soil Blocks For Sustainability</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Peter Robery</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/0-Peter Robery-Opening Paper-Conf-5.pdf' target='_blank'>Best Practice in the Management and Protection of Concrete Assets</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Prabhat K Soni  ,P Sangamnerkar   ,S K Dubey</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-427.pdf' target='_blank'>Comparative Analysis Of Wind Loads For Industrial Shed Structures</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Prabhat K Soni  ,P Sangamnerkar  ,S K Dubey</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-428.pdf' target='_blank'>Analysis Of Factors Affecting Time Period Of Vibration Of Symmetric R.C. Building</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Pradip Kumar Jha</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-148.pdf' target='_blank'>Behaviour Of Ternary Concrete With Flyash And Ground Granulated Blast Furnace Slag</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Prarthita Basu ,Ramesh Chandra Gupta ,Vinay Agrawal ,Sanjeev Kumar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-306.pdf' target='_blank'>Rheological Characteristics, Microstructural Property And Compressive Strength Of Self-Compacting Concrete Containing Dholpur Sandstone Slurry As Partial Replacement Of  Cement</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Priyanka ,Rajesh Kumar ,Anand Babu</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-185.pdf' target='_blank'>Performance Of Self-Compacting Concrete Using High Volume Sand And Fly Ash</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Pronab Roy , Rishabh Kumar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-155.pdf' target='_blank'>Estimation Of Compressive Strength Of Pumpable Concrete Using Machine Learning Technique</a></em></span></strong></span></p><hr/>
+					<a name="name_R">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>R K Mishra ,R K Tripathi ,Vikas Dubey  ,Neha V Dubey</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-246.pdf' target='_blank'>Mechanoluminescence: A Novel Method For Identification Of Crack Initiation In Concrete Structures</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>R Malathy ,N Karuppasamy ,U Vinitha</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-313.pdf' target='_blank'>Effect Of Magnetic Field Exposure Time On Fresh And Hardenend Properties Of Magnetic Water Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>R V Silva , J de Brito</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-189.pdf' target='_blank'>Eurocode 2-Based Structural Design Of A Reinforced Recycled Aggregate Concrete Slab</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>R. Bedi ,A. Bakshi</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1034.pdf' target='_blank'>Mechanical Properties Of Polymer Concrete Made With   Natural And Recycled Aggregates Using Pet Resin</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>R. V.Ranganath ,Shamanth Gowda. T   ,Naveen.A.Katavi ,Shashi Kiran. M. R</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1013.pdf' target='_blank'>Sustainable Approach To Develop Ultra High Performance Concrete Using Industrial Wastes And By Products</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rafat Siddique</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1A-Rafat Siddique-Keynote-Conf-1.pdf' target='_blank'>Utilization of Industrial By-products in the Development of Sustainable Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Raghubir Singh ,Rizwan A Khan</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-113.pdf' target='_blank'>A Review On Partial Substitution Of Sand With Copper Slag On Mechanical And Durability Characteristics Of High Performance Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rahul Gupta ,Jagbir Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-516.pdf' target='_blank'>Optimum Design Of Rc Columns</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rahul Sharma ,Rizwan A Khan</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-112.pdf' target='_blank'>Evaluation Of Copper Slag As Fine Aggregate In The Development Of Self Compacting Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rajanikant Devalkar1 ,Krupesh Chauhan ,Sanjay Yadav</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-421.pdf' target='_blank'>Evaluation Of Performance In Ppp/Public Road Projects </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rajeeb Kumar ,Devendra Kumar Pandey ,</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-117.pdf' target='_blank'>Designing High Performance Concrete For Service Life And Sustainability Of Structures</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rajeeb Kumar ,Shilpa Pal  ,Neelesh Jadaun  Rohit</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-141.pdf' target='_blank'>Performance Of Polymer Treated Recycled Concrete Aggregate Under Different Curing Condition Of Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rajesh Kumar  ,Omesh Thukral ,SP Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-187.pdf' target='_blank'>Cost Effective Analysis Of Scc With Bottom Ash And Fly Ash </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rajesh Kumar ,Omesh Thukral  ,S P Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1002.pdf' target='_blank'>Thermal Behaviour Of Self-Compacting Concrete Under Elevated Temperature Containing Bottom Ash And Fly Ash</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rajesh Kumar ,SK Madan</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1003.pdf' target='_blank'>Experimental Study On Performance Of Scc Containing Stone Dust And Mineral Admixture</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rajnish Puri ,Sanjeev Kumar  ,Vijay K. Puri ,Prabir K. Kolay</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1009.pdf' target='_blank'>Development Of High Performance Concrete Composites Using Class F Fly Ash And Bottom Ash</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rakesh Choudhary ,Abhishek Jain ,Rajesh Gupta</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-184.pdf' target='_blank'>Utilization Of Waste Marble Powder And Silica Fume In Self-Compacting Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rakesh Patel ,S K Dubey ,K K Pathak</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-501.pdf' target='_blank'>Study On The Behaviour Of Concrete Beams Under Different Loading Conditions</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Raman Bedi  ,Ashwani Kumar Singh ,Modassir Akhtar ,Akhil Khajuria</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-316.pdf' target='_blank'>Recent Developments In Frc Technology For Enhanced Impact Resistance Properties: Innovations And Opportunities  </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Ranjeev Sawhney  ,Amit Srivastava</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-410.pdf' target='_blank'>Grouting Around Power Tunnel Lining</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Ravindra K Dhir</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1D-R K Dhir-Keynote-Conf-1.pdf' target='_blank'>Moving Forward with Sustainable Construction Materials: An Unavoidable Challenge</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Ravindra K Dhir ,Chao-Qun Lye</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-314.pdf' target='_blank'>Carbonation Of Fly Ash And Ggbs Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rekha Singh ,Sanjay Goel</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-134.pdf' target='_blank'>Evaluation Of Strength Of Pervious Concrete Made Of Blended Cements  </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rekha Singh ,Sanjay Goel ,</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-247.pdf' target='_blank'>Abrasion Resistance Of Fly Ash Blended Pervious Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rizwan A Khan</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-111.pdf' target='_blank'>Strength Development And Water Absorption Of Concrete Containing Metakaolin, Silica Fume And Rice Husk Ash</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Roger P West</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/0-R West-Opening Paper-Conference 6.pdf' target='_blank'>Sharing Concrete Knowledge Globally </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Roger P. West ,Eoghan Sexton ,Gurbir Kaur ,Dervilla Niall ,Richard O’Hegarty ,Oliver Kinnane</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-212.pdf' target='_blank'>Development And Testing Of A Sandwich Panel With Uhpc And Pcm Concrete Layers</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Rohit Mehra ,Sarabjot Kaur</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-115.pdf' target='_blank'>Assessment Of Health Risk Due To Variation In Concentration Of Flyash In Cement</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Romio Mandal ,Saswata Chattopadhyay ,Sumit Chakraborty ,Prasanta Chakraborty  ,Subrata Chakraborty</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-193.pdf' target='_blank'>Development Of Electrolyzed Water Based Concrete: A New Approach For Early Strength Gain</a></em></span></strong></span></p><hr/>
+					<a name="name_S">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>S B Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1B-S B Singh-Keynote-Conf-3.pdf' target='_blank'>ECC and Its Applications for Strengthening of Masonry Beams2 Concrete </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S Bhalla</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1C-S Bhalla-Keynote-Conf-2.pdf' target='_blank'>Fusion of Smart Materials and Concrete Technologies: Present and Futuristic Applications</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S Chiranjiakumari Devi ,Rizwan A Khan ,J Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-204.pdf' target='_blank'>Influence Of Graphene Oxide On The Microstructure And Durability Properties Of Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S E Tayade</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-218.pdf' target='_blank'>Comparative Study Of Conventional Concrete And Polymer Modified Recycled Aggregate Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S G Shah ,Q I Barodawala ,S G Shah</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-202.pdf' target='_blank'>Modifying The Strength And Durability Of Self Compacting Concrete Using Carbon Nanotubes</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S Mandal</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-240.pdf' target='_blank'>Uncertainties In Prediction And Evaluation Of Carbonation Propagation : Recent Developments</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S Moharana,  ,J P Behera</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-409.pdf' target='_blank'>Studies On Water Permeable Concrete By Utilizing Low Density Aggregate</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S P Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1D-S P Singh-Keynote-Conf-4.pdf' target='_blank'>Self Compacting Fibre Reinforced Concrete for Pavements-Fatigue Performance </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S R Bhagat ,Lomesh S Mahajan</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-242.pdf' target='_blank'>Sustainability Of Using Bottom Ash To Save Natural River Bed Sand</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S Rupali ,R Arun Raj</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-120.pdf' target='_blank'>Capillary Suction, Ultrasonic Pulse Velocity And Chloride Penetration Studies On Basalt Reinforced Self-Compacting Recycled Aggregate Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S Shrihari</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-201.pdf' target='_blank'>Use Of Ecofriendly Microbial Bricks In Rc Filler Slabs</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S Shrivastava ,N Garg</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1051.pdf' target='_blank'>Environmental And Economic Comparison Of Frp Reinforcements And Steel Reinforcements In Concrete Beams Based On Design Strength Parameter</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S. K. Dhawan , Harman Singh , Prof. Suresh Bhalla  ,Prof. B. Bhattacharjee</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1042.pdf' target='_blank'>Mechanism Of Corrosion And Protection In Reinforced Concrete Structures And Service Life - A Review</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S. K. Dhawan ,Harman Singh , Prof. Suresh Bhalla ,Prof. B. Bhattacharjee</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-192.pdf' target='_blank'>Durable, High Performance And Sustainable Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>S. K. Dhawan ,Harman Singh ,Prof. B. Bhattacharjee</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1044.pdf' target='_blank'>Built Sustainable Environment</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sachin Chugh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-229.pdf' target='_blank'>Ultra High Performance Concrete - A Need For A Sustainable And Durable Approach In Construction Industry</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Saha Dauji ,P K Srivastava ,Sandip B. Bhalerao ,Kapilesh Bhargava</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-502.pdf' target='_blank'>Evaluation Of Compressive Strength Of Concrete From Ultrasonic Pulse Velocity For Existing Concrete Structure</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Samreen Bano , Tabish Izhar ,Neha Mumtaz</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-227.pdf' target='_blank'>Design Of Rc Member Using Different Building Code: A Review</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sanchita U. Sawant ,Nisha P. Naik</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-152.pdf' target='_blank'>Finite Element Analysis Of Reinforced Concrete Rectangular And Trapezoidal Slab</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sandip B. Bhalerao ,Saha Dauji ,Kapilesh Bhargava</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-503.pdf' target='_blank'>Seismic Requalification Of Existing Concrete Structure For Nuclear Fuel Cycle Faciltiy</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sandip Mondal ,Aparna (Dey) Ghosh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-209.pdf' target='_blank'>A Study On Property Augmentation Of Microbial Concrete At Different Cell Concentrations With Time</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sangketa Sangma ,Prabhakar ,Deb Dulal Tripura</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-150.pdf' target='_blank'>Analytical Behaviour Of Rammed Earth Building Using Sap2000</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sanjay Kumar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-309.pdf' target='_blank'>Performance Of Reinforced Self Compacting Concrete Short Column Containing Steel Fibres</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sanjeev salot ,Hemant sood</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-232.pdf' target='_blank'>Effect Of Partial Replacement Of Cement With Metakaolin On Properties Of Concrete Using Treated Waste Water</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sanjib Das  ,Rehan Ahmed ,Abhisek Mandal ,Santanu Bhanja</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-422.pdf' target='_blank'>Assesment Of Torsional Irregularity Of Buildings Following The Provisions Of Indian Standard Through A Case Study</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Saswata Chattopadhyay
+					 , Subhajit Mondal  ,Bikash Barman   ,Kushal Ghosh
+					 ,Dr. Partha Ghosh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1018.pdf' target='_blank'>Effect Of Addition Of Chemical Admixture On The Physico- Mechanical And Microstructural Properties Of A Fly Ash-Slag Blended Geopolymer Composite</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Satish M. Waysal ,Yogesh D. Patil ,Bharatkumar Z. Dholakiya</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-157.pdf' target='_blank'>Recyclability Of Pet Waste In Sustainable Mortar Production</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Shailja Bawa ,S P Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-106.pdf' target='_blank'>Prediction Of Mean And Design Fatigue Lives Of Plain And Fibre Reinforced Self Compacting Concrete Beams In Flexure</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Shailja Bawa ,S P Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-402.pdf' target='_blank'>Flexural Fatigue Performance Of Hubrid Fibrous Self Compacting Concrete For Bridge Decks</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>ShehnazDeep , Navdeep Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1033.pdf' target='_blank'>Effect Of Coal Bottom Ash On Fresh Properties Of Normally Vibrated Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Shemal V. Dave ,Dr. Ankur C. Bhogayata ,Dr. N.K.Arora</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-131.pdf' target='_blank'>Durability Study Of Geopolymer Concrete Cured At Ambient Temperature</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Shradha Jena ,Kishor Chandra Panda</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-205.pdf' target='_blank'>Effect Of Bacteria On The Properties Of Concrete- A Review</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Shruti Dessai ,Dr. Neena Panandikar  ,Rakhesh Ramarajan  ,Vivek Pillai</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1005.pdf' target='_blank'>Behaviour Of Self Healing Mechanism For Crack Resistance</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sonia Chutani,  ,Jagbir Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-408.pdf' target='_blank'>An Economical Design Of Reinforced Concrete Frame Structure</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sreelakshmi A ,Dr. Jeenu G</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1001.pdf' target='_blank'>Shear-Flexure Behaviour Of Partially Prestressed Basalt Fibre Reinforced Concrete Beams</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sridevi.M ,Dr. P. Srinivasa Rao , Dr. T. Seshadri Sekhar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-181.pdf' target='_blank'>Strength Improvement Studies On The Ternary Blended Bacterial Self Compacting Concrete (Tbbscc)</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sudheer Kumar J, Saurabh Rawat</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-188.pdf' target='_blank'>Study the effect of geosynthetic encased stone columns on soft and loose soils</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sudhirkumar V. Barai1 ,Subhasis Pradhan ,B. R. Tiwari ,Shailendra Kumar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1049.pdf' target='_blank'>Comparative Lca Of Natural And Recycled Coarse Aggregate Production In India</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sugumar K , Ponmani K.P ,Vasugi V</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-133.pdf' target='_blank'>Influence Of Slag Aggregates On The Functional Properties Of Concrete </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Suhasini N Madhekar ,Harshavardhan Vairagade</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-407.pdf' target='_blank'>Innovative Base Isolators From Scrap Tyre Rubber Pads</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sukhwinder Singh  ,Jagbir Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-420.pdf' target='_blank'>Cost Optimisation Of Rc Beams Using A Meta Heuristic Technique </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sulo Shanmuganathan</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1A-Sulo Shanmuganathan-Keynote-Conf-4.pdf' target='_blank'>Future of Concrete in Urban and Infrastructure Development </a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sumit Arora , S P Singh , Bavita Bhardwaj</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1047.pdf' target='_blank'>Failure Probability Of Concrete Made With  Recycled Concrete Aggregates Under Of Flexural Fatigue
+					</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sumit Arora ,Bavita Bhardwaj ,Pardeep Kumar</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-1048.pdf' target='_blank'>Comparative Study Of Heat As Well As Ambient Cured Alkali Activated Slag Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sunil Bauchkar ,H.S. Chore</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-315.pdf' target='_blank'>Effect Of Contents Of Microfines In Crushed Sand On Workability And Workability Retention Of Properties Of High Strength Mortar</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Suruchi Mishra ,Rizwanullah ,Shivam Gangwar ,H.K. Sharma</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-217.pdf' target='_blank'>Investigation Of Ultra High Performance Fiber Reinforced Concrete Under Impact Loading</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Sushmita Baral ,Prateek Negi ,Suresh Bhalla</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-223.pdf' target='_blank'>Effect Of Temperature On Signatures Of Piezo Sensors For Emi Technique And Its Compensation</a></em></span></strong></span></p><hr/>
+					<a name="name_T">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>T Ch Madhavi ,D Senthilvelan ,Madhura S</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-250.pdf' target='_blank'>Effect Of Elevated Temperatures On Copper Slag Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>T Jena ,K C Panda ,S Jena   </span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-104.pdf' target='_blank'>Compressive Strength And Sorptivity Of Plain And Blended Concrete Exposed To Saline Environment</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>T P Singh</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-307.pdf' target='_blank'>Do It Right The First Time</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Tarunjit Butalia</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/1B-T Butalia-Keynote-Conf-1.pdf' target='_blank'>Beneficial Use of Ponded Fly Ash in Structural Concrete</a></em></span></strong></span></p><hr/>
+					<p align='left'><span class='style84'>Tom Harrison</span></p>
+					<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/openingPaper.pdf' target='_blank'>The Challenges Facing the Concrete Industry</a></em></span></strong></span></p><hr/>
+					<a name="name_U">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>Uzair Khan, S P Singh</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-114.pdf' target='_blank'>Investigation on the strength properties of hybrid fibre reinforced self compacting concrete </a></em></span></strong></span></p><hr/>
+					<a name="name_V">
+					<a href="authorindex.html#top">Top</a>
+					<p align='left'><span class='style84'>V S Vairagade ,R Patel ,B V Bahoria</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-103.pdf' target='_blank'>Comparative Study On Strength Of Sugarcane Bagasse Ash And Marble Slurry Dust Admixed Masonry Mortar</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Vijay R Wairagade  ,Ishwar P Sonar</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-164.pdf' target='_blank'>Bamboo Reinforced Concrete Beam – Step Toward Sustainable Development
+</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Vinay Agrawal ,Vikram Gupta ,Rajesh Gupta ,Sanjay Mundra</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-168.pdf' target='_blank'>Utilization Of Stone Cutting Waste In Concrete As Replacement Of Fine Aggregate</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Vinay Mohan Aggarwal ,Purnanand Savoikar ,</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC - 2019 - 215.pdf' target='_blank'>Effect Of Addition Of Nano-Silica On Micro Structural, Mechanical And Durability Properties Of Cement Mortar And Concrete – A Review</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Virendra Kumar ,Rajesh Kumar Paswan</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-230.pdf' target='_blank'>Utilization Of Steel Slag As Cementitious Material In Construction Industry</a></em></span></strong></span></p><hr/>
+<p align='left'><span class='style84'>Vivek Sethi ,M Ramanathan</span></p>
+<p align='left' class='style85'><span class='ChapterHead style71' style='line-height:11.0pt;'><strong><span style='font-family:'Arial','sans-serif'; font-size:10.0pt;'><em><a href='pdf/UCC-2019-102.pdf' target='_blank'>Use Of Service Life Modelling, Routine Testing And Monitoring For Concrete Durability</a></em></span></strong></span></p><hr/>
+
+					<a name="name_W">
+					<a name="name_X">
+					<a name="name_Y">
+					<a name="name_Z">
+					<a name="name_I">
+					<a name="name_O">
+					Not Assigned<br />
+					<a href="authorindex.html#top">Top</a>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					</td>
+        </tr>
+      </table>
+    </div></td>
+  </tr>
+</table>
+
+</body>
+</html>
