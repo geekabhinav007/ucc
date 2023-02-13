@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
+<html>
+<head>
+<link rel="SHORTCUT ICON" href="Pictures/ucc_f.ico">
+<link href="css/ukieriRai.css" rel="stylesheet" type="text/css"> 
+<title>UCC</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script type="text/javascript" src="galleria-1.2.9.min.js"></script>
+    <script type="text/javascript" src="plugins/facebook/galleria.facebook.js"></script>
+<script  type="text/javascript" src="plugins/flickr/galleria.flickr.min.js"></script>
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div id="contain">   <!-- container starts -->
+
+<!--so many days left for abstract submission -->
+
+
+
+
+<div class="bg" ><div id="header" ><div class='headerPadding'> <table><tr style=""><td style="width:55px; "><a href='../index.html'> <img src="Pictures/uccLogo100T.png" width = "100"  alt="logo"></a></td><td style="background:url('images/baner.jpg') no-repeat;"><div class="headh2">UKIERI Concrete Congress</div><div class="headh1"><u>Sustainable Concrete Infrastructure</u></div><div class="headh2">(in Virtual Mode)  <br/>14 - 17 March 2023 </div></td></tr></table></div><div class="navigator"><ul class="semiopaquemenu">
+<li><a href="../ucc2023.html">Home</a></li>
+<li><a href="index.html%3FrefNo=27&amp;fileRef=TradeFair.html">Conferences</a></li>
+<!--<li><a href="?refNo=26&amp;fileRef=TradeFair">Registration</a></li>-->
+<!--<li><a href="?refNo=23&amp;fileRef=Submit">Submit Paper</a></li>-->
+<li><a href="index.html%3FrefNo=22&amp;fileRef=TradeFair.html">Downloads</a></li>
+<!--<li><a href="files/Proceedings/">Proceedings</a></li>-->
+<li><a href="files/Photos.html">Photos</a></li>
+</ul> </div>
+
+
+
+<!--<div id='scrollText'>
+<div id='imageScroller'>
+				<div id="viewer" class="js-disabled"><b id="r"><a class="wrapper" id="nonoo" href="#">Registration details will be updated soon...</b></a>&nbsp;
+					<a class="wrapper" id="nonoo" href="#" ><b id="r"> 
+</b>-->
+ <!--</a>
+				</div>
+</div>
+</div>-->
+			
+
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+			
+			  //remove js-disabled class
+				$("#viewer").removeClass("js-disabled");
+			
+			  //create new container for images
+				$("<div>").attr("id", "container").css({ position:"absolute"}).width($(".wrapper").length * 470).height(30).appendTo("div#viewer");
+			  	
+				//add images to container
+				$(".wrapper").each(function() {
+					$(this).appendTo("div#container");
+				});
+				
+				//work out duration of anim based on number of images (1 second for each image)
+				var duration = $(".wrapper").length * 15500;
+				
+				//store speed for later (distance / time)
+				var speed = (parseInt($("div#container").width()) + parseInt($("div#viewer").width())) / duration;
+								
+				//set direction
+				var direction = "rtl";
+				
+				//set initial position and class based on direction
+				(direction == "rtl") ? $("div#container").css("left", $("div#viewer").width()).addClass("rtl") : $("div#container").css("left", 0 - $("div#container").width()).addClass("ltr") ;
+				
+				//animator function
+				var animator = function(el, time, dir) {
+				 
+					//which direction to scroll
+					if(dir == "rtl") {
+					  
+					  //add direction class
+						el.removeClass("ltr").addClass("rtl");
+					 		
+						//animate the el
+						el.animate({ left:"-" + el.width() + "px" }, time, "linear", function() {
+												
+							//reset container position
+							$(this).css({ left:$("div#imageScroller").width(), right:"" });
+							
+							//restart animation
+							animator($(this), duration, "rtl");
+							
+							//hide controls if visible
+							($("div#controls").length > 0) ? $("div#controls").slideUp("slow").remove() : null ;			
+											
+						});
+					} else {
+					
+					  //add direction class
+						el.removeClass("rtl").addClass("ltr");
+					
+						//animate the el
+						el.animate({ left:$("div#viewer").width() + "px" }, time, "linear", function() {
+												
+							//reset container position
+							$(this).css({ left:0 - $("div#container").width() });
+							
+							//restart animation
+							animator($(this), duration, "ltr");
+							
+							//hide controls if visible
+							($("div#controls").length > 0) ? $("div#controls").slideUp("slow").remove() : null ;			
+						});
+					}
+				}
+				
+				//start anim
+				animator($("div#container"), duration, direction);
+				
+				//pause on mouseover
+				$("a.wrapper").on("mouseover", function() {
+				  
+					//stop anim
+					$("div#container").stop(true);
+					
+					//show controls
+					($("div#controls").length == 0) ? $("<div>").attr("id", "controls").appendTo("div#outerContainer").css({ opacity:0.7 }).slideDown("slow") : null ;
+					($("a#rtl").length == 0) ? $("<a>").attr({ id:"rtl", href:"#", title:"rtl" }).appendTo("#controls") : null ;
+					($("a#ltr").length == 0) ? $("<a>").attr({ id:"ltr", href:"#", title:"ltr" }).appendTo("#controls") : null ;
+					
+					//variable to hold trigger element
+					var title = $(this).attr("title");
+					
+					//add p if doesn't exist, update it if it does
+					($("p#title").length == 0) ? $("<p>").attr("id", "title").text(title).appendTo("div#controls") : $("p#title").text(title) ;
+				});
+				
+				//restart on mouseout
+				$("a.wrapper").on("mouseout", function(e) {
+				  
+					//hide controls if not hovering on them
+					(e.relatedTarget == null) ? null : (e.relatedTarget.id != "controls") ? $("div#controls").slideUp("slow").remove() : null ;
+					
+					//work out total travel distance
+					var totalDistance = parseInt($("div#container").width()) + parseInt($("div#viewer").width());
+														
+					//work out distance left to travel
+					var distanceLeft = ($("div#container").hasClass("ltr")) ? totalDistance - (parseInt($("div#container").css("left")) + parseInt($("div#container").width())) : totalDistance - (parseInt($("div#viewer").width()) - (parseInt($("div#container").css("left")))) ;
+					
+					//new duration is distance left / speed)
+					var newDuration = distanceLeft / speed;
+				
+					//restart anim
+					animator($("div#container"), newDuration, $("div#container").attr("class"));
+
+				});
+												
+				//handler for ltr button
+				$("#ltr").on("click", function() {
+				 					
+					//stop anim
+					$("div#container").stop(true);
+				
+					//swap class names
+					$("div#container").removeClass("rtl").addClass("ltr");
+										
+					//work out total travel distance
+					var totalDistance = parseInt($("div#container").width()) + parseInt($("div#viewer").width());
+					
+					//work out remaining distance
+					var distanceLeft = totalDistance - (parseInt($("div#container").css("left")) + parseInt($("div#container").width()));
+					
+					//new duration is distance left / speed)
+					var newDuration = distanceLeft / speed;
+					
+					//restart anim
+					animator($("div#container"), newDuration, "ltr");
+				});
+				
+				//handler for rtl button
+				$("#rtl").on("click", function() {
+										
+					//stop anim
+					$("div#container").stop(true);
+					
+					//swap class names
+					$("div#container").removeClass("ltr").addClass("rtl");
+					
+					//work out total travel distance
+					var totalDistance = parseInt($("div#container").width()) + parseInt($("div#viewer").width());
+
+					//work out remaining distance
+					var distanceLeft = totalDistance - (parseInt($("div#viewer").width()) - (parseInt($("div#container").css("left"))));
+					
+					//new duration is distance left / speed)
+					var newDuration = distanceLeft / speed;
+				
+					//restart anim
+					animator($("div#container"), newDuration, "rtl");
+				});
+			});
+		</script>
+ 
+ </div>
+</div><div id="ColLeft">
+    <!-- TradeFair.php -->
+    <ul id="left_nav"><li class="GapR"> <a href="index.html%3FrefNo=3&amp;fileRef=TradeFair.html">Punjab</a></li><li class="GapR"> <a href="index.html%3FrefNo=4&amp;fileRef=KeyDates.html">Key Dates</a></li><li class="GapR"> <a href="index.html%3FrefNo=9&amp;fileRef=Genesis.html">Genesis</a></li><li class="GapR"> <a href="index.html%3FrefNo=10&amp;fileRef=TradeFair.html">Jalandhar</a></li><li class="GapR"> <a href="index.html%3FrefNo=11&amp;fileRef=TradeFair.html">NITJ</a></li><li class="GapR"> <a href="index.html%3FrefNo=12&amp;fileRef=TradeFair.html">GNDEC</a></li><li class="GapR"> <a href="index.html%3FrefNo=14&amp;fileRef=TradeFair.html">Call for Papers </a></li><li class="GapR"> <a href="index.html%3FrefNo=15&amp;fileRef=TradeFair.html">Who Should Participate</a></li><li class="GapR"> <a href="index.html%3FrefNo=16&amp;fileRef=TradeFair.html">Language and Venue</a></li><li class="GapR"> <a href="index.html%3FrefNo=21&amp;fileRef=TradeFair.html">Previous Congresses</a></li><li class="GapR"> <a href="index.html%3FrefNo=28&amp;fileRef=TradeFair.html">Ludhiana</a></li><li class="sofware2"> <a href="index.html%3FrefNo=40&amp;fileRef=TradeFair.html">Congress Fees</a></li></ul>   </div>
+<div class="ColMid">
+
+    <!-- TradeFair.php -->
+   <div class= RowEvenC > <div class='bgRed'>Congress Fees</div></br><p>The Congress fee includes soft copy of the Abstract
+Book/Proceedings. The fee structure is shown below.</p>
+
+<table border='1'>
+<tr>
+<td><h1><center>Fee Per Delegate (INR)</center></h1></td>
+</tr>
+</table><table border='1'>
+<tr><td>Author registration</td><td>2500</td></tr>
+<tr><td>Student registration (Non author)</td><td>2000</td></tr>
+<tr><td>Standard registration (Non author)</td><td>3000</td</tr>
+</tr></table>
+
+<h3>Registration / Payment Details</h3>
+
+<ul>
+  <li>For registration, please use the following Link. Please copy and
+paste into the browser if it does not work.
+<br>
+<a href="https://forms.gle/MbBH5FvQNePm3qeZA">https://forms.gle/MbBH5FvQNePm3qeZA</a></li>
+  <li>Separate registration is required for each paper if you have
+submitted more than one paper. In such case(s), separate
+registration fee for each paper is required to be paid.</li>
+  <li>Selected papers shall be considered for peer review for possible
+publication in the Journals of ICE/Materials Today Proceedings after
+the Congress. Publication of papers in the Journals of ICE/Materials
+Today Proceedings is subject to peer review.</li>
+</ul>
+
+<h3>Bank Account Details</h3>
+
+<table border='1'>
+<tr>
+<td><h1><center>Bank Account Details</center></h1></td>
+</tr>
+</table><table border='1'>
+<tr><td>Account Name</td><td>UKIERI Concrete Congress</td></tr>
+<tr><td>Account Number</td><td>65155472509</td></tr>
+<tr><td>Account Type</td><td>Current</td></tr>
+<tr><td>Bank</td><td>State Bank of India, REC Jalandhar-144027, India</td</tr>
+<tr><td>IFS Code</td><td>SBIN0050841</td></tr>
+<tr><td>SWIFT Code</td><td>SBININBB440</td></tr>
+</tr></table></div><table></table>
+  
+   <!--<div class="ColLeft">   <?php// include 'LinksLeft.php';  ?>
+   </div>-->
+  
+
+ 
+
+
+</div>
+<div class="newFooter">
+
+
+<div class="footerLogo">
+
+<h2>Host Organisations</h2>
+
+<table class="aTableRai"><tr><td>
+
+<a href='http://www.nitj.ac.in' target='_blank' style='margin:10px'><img src="ukieri_logo/files/111.png" height = 60px  alt="logo" ></a>
+</td><td>
+<a class="footerLinks" href="index.html%3FrefNo=11&amp;fileRef=TradeFair.html">Dr B R Ambedkar National Institute of Technology,</a> <a class="footerLinks" href="index.html%3FrefNo=10&amp;fileRef=TradeFair.html">Jalandhar</a> 
+ <br/> <a class="footerLinks" href="index.html%3FrefNo=12&amp;fileRef=TradeFair.html">Guru Nanak Dev Engineering College, Ludhiana</a>
+</td><td>
+<a href='http://www.gndec.ac.in' target='_blank' style='margin:10px'><img src="ukieri_logo/files/mmmm.png" height = 60px  alt="logo" ></a>
+
+</tr></table>
+
+</div>
+<div class="footer"><div class='GapLarge'>
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+          src="https://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+
+<a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!">
+    </a>
+
+    </p> </div></div>
+</div>
+
+</table>
+</div>
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://ukiericoncretecongress.com/piwik/" : "http://ukiericoncretecongress.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="../piwik/piwik.php%3Fidsite=2" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</div>
+</body>
+</html>
+
+
+
+

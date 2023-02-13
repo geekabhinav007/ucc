@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
+<html>
+<head>
+<link rel="SHORTCUT ICON" href="Pictures/ucc_f.ico">
+<link href="css/ukieriRai.css" rel="stylesheet" type="text/css"> 
+<title>UCC</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script type="text/javascript" src="galleria-1.2.9.min.js"></script>
+    <script type="text/javascript" src="plugins/facebook/galleria.facebook.js"></script>
+<script  type="text/javascript" src="plugins/flickr/galleria.flickr.min.js"></script>
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div id="contain">   <!-- container starts -->
+
+<!--so many days left for abstract submission -->
+
+
+
+
+<div class="bg" ><div id="header" ><div class='headerPadding'> <table><tr style=""><td style="width:55px; "><a href='https://ukiericoncretecongress.com'> <img src="Pictures/uccLogo100T.png" width = "100"  alt="logo"></a></td><td style="background:url('images/baner.jpg') no-repeat;"><div class="headh2">UKIERI Concrete Congress</div><div class="headh1"><u>Sustainable Concrete Infrastructure</u></div><div class="headh2">(in Virtual Mode)  <br/>14 - 17 March 2023 </div></td></tr></table></div><div class="navigator"><ul class="semiopaquemenu">
+<li><a href="https://ukiericoncretecongress.com/ucc2023">Home</a></li>
+<li><a href="?refNo=27&amp;fileRef=TradeFair">Conferences</a></li>
+<!--<li><a href="?refNo=26&amp;fileRef=TradeFair">Registration</a></li>-->
+<!--<li><a href="?refNo=23&amp;fileRef=Submit">Submit Paper</a></li>-->
+<li><a href="?refNo=22&amp;fileRef=TradeFair">Downloads</a></li>
+<!--<li><a href="files/Proceedings/">Proceedings</a></li>-->
+<li><a href="files/Photos">Photos</a></li>
+</ul> </div>
+
+
+
+<!--<div id='scrollText'>
+<div id='imageScroller'>
+				<div id="viewer" class="js-disabled"><b id="r"><a class="wrapper" id="nonoo" href="#">Registration details will be updated soon...</b></a>&nbsp;
+					<a class="wrapper" id="nonoo" href="#" ><b id="r"> 
+</b>-->
+ <!--</a>
+				</div>
+</div>
+</div>-->
+			
+
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+			
+			  //remove js-disabled class
+				$("#viewer").removeClass("js-disabled");
+			
+			  //create new container for images
+				$("<div>").attr("id", "container").css({ position:"absolute"}).width($(".wrapper").length * 470).height(30).appendTo("div#viewer");
+			  	
+				//add images to container
+				$(".wrapper").each(function() {
+					$(this).appendTo("div#container");
+				});
+				
+				//work out duration of anim based on number of images (1 second for each image)
+				var duration = $(".wrapper").length * 15500;
+				
+				//store speed for later (distance / time)
+				var speed = (parseInt($("div#container").width()) + parseInt($("div#viewer").width())) / duration;
+								
+				//set direction
+				var direction = "rtl";
+				
+				//set initial position and class based on direction
+				(direction == "rtl") ? $("div#container").css("left", $("div#viewer").width()).addClass("rtl") : $("div#container").css("left", 0 - $("div#container").width()).addClass("ltr") ;
+				
+				//animator function
+				var animator = function(el, time, dir) {
+				 
+					//which direction to scroll
+					if(dir == "rtl") {
+					  
+					  //add direction class
+						el.removeClass("ltr").addClass("rtl");
+					 		
+						//animate the el
+						el.animate({ left:"-" + el.width() + "px" }, time, "linear", function() {
+												
+							//reset container position
+							$(this).css({ left:$("div#imageScroller").width(), right:"" });
+							
+							//restart animation
+							animator($(this), duration, "rtl");
+							
+							//hide controls if visible
+							($("div#controls").length > 0) ? $("div#controls").slideUp("slow").remove() : null ;			
+											
+						});
+					} else {
+					
+					  //add direction class
+						el.removeClass("rtl").addClass("ltr");
+					
+						//animate the el
+						el.animate({ left:$("div#viewer").width() + "px" }, time, "linear", function() {
+												
+							//reset container position
+							$(this).css({ left:0 - $("div#container").width() });
+							
+							//restart animation
+							animator($(this), duration, "ltr");
+							
+							//hide controls if visible
+							($("div#controls").length > 0) ? $("div#controls").slideUp("slow").remove() : null ;			
+						});
+					}
+				}
+				
+				//start anim
+				animator($("div#container"), duration, direction);
+				
+				//pause on mouseover
+				$("a.wrapper").on("mouseover", function() {
+				  
+					//stop anim
+					$("div#container").stop(true);
+					
+					//show controls
+					($("div#controls").length == 0) ? $("<div>").attr("id", "controls").appendTo("div#outerContainer").css({ opacity:0.7 }).slideDown("slow") : null ;
+					($("a#rtl").length == 0) ? $("<a>").attr({ id:"rtl", href:"#", title:"rtl" }).appendTo("#controls") : null ;
+					($("a#ltr").length == 0) ? $("<a>").attr({ id:"ltr", href:"#", title:"ltr" }).appendTo("#controls") : null ;
+					
+					//variable to hold trigger element
+					var title = $(this).attr("title");
+					
+					//add p if doesn't exist, update it if it does
+					($("p#title").length == 0) ? $("<p>").attr("id", "title").text(title).appendTo("div#controls") : $("p#title").text(title) ;
+				});
+				
+				//restart on mouseout
+				$("a.wrapper").on("mouseout", function(e) {
+				  
+					//hide controls if not hovering on them
+					(e.relatedTarget == null) ? null : (e.relatedTarget.id != "controls") ? $("div#controls").slideUp("slow").remove() : null ;
+					
+					//work out total travel distance
+					var totalDistance = parseInt($("div#container").width()) + parseInt($("div#viewer").width());
+														
+					//work out distance left to travel
+					var distanceLeft = ($("div#container").hasClass("ltr")) ? totalDistance - (parseInt($("div#container").css("left")) + parseInt($("div#container").width())) : totalDistance - (parseInt($("div#viewer").width()) - (parseInt($("div#container").css("left")))) ;
+					
+					//new duration is distance left / speed)
+					var newDuration = distanceLeft / speed;
+				
+					//restart anim
+					animator($("div#container"), newDuration, $("div#container").attr("class"));
+
+				});
+												
+				//handler for ltr button
+				$("#ltr").on("click", function() {
+				 					
+					//stop anim
+					$("div#container").stop(true);
+				
+					//swap class names
+					$("div#container").removeClass("rtl").addClass("ltr");
+										
+					//work out total travel distance
+					var totalDistance = parseInt($("div#container").width()) + parseInt($("div#viewer").width());
+					
+					//work out remaining distance
+					var distanceLeft = totalDistance - (parseInt($("div#container").css("left")) + parseInt($("div#container").width()));
+					
+					//new duration is distance left / speed)
+					var newDuration = distanceLeft / speed;
+					
+					//restart anim
+					animator($("div#container"), newDuration, "ltr");
+				});
+				
+				//handler for rtl button
+				$("#rtl").on("click", function() {
+										
+					//stop anim
+					$("div#container").stop(true);
+					
+					//swap class names
+					$("div#container").removeClass("ltr").addClass("rtl");
+					
+					//work out total travel distance
+					var totalDistance = parseInt($("div#container").width()) + parseInt($("div#viewer").width());
+
+					//work out remaining distance
+					var distanceLeft = totalDistance - (parseInt($("div#viewer").width()) - (parseInt($("div#container").css("left"))));
+					
+					//new duration is distance left / speed)
+					var newDuration = distanceLeft / speed;
+				
+					//restart anim
+					animator($("div#container"), newDuration, "rtl");
+				});
+			});
+		</script>
+ 
+ </div>
+</div><div id="ColLeft">
+    <!-- TradeFair.php -->
+    <ul id="left_nav"><li class="sofware2"> <a href="?refNo=3&#38;fileRef=TradeFair">Punjab</a></li><li class="GapR"> <a href="?refNo=4&#38;fileRef=KeyDates">Key Dates</a></li><li class="GapR"> <a href="?refNo=9&#38;fileRef=Genesis">Genesis</a></li><li class="GapR"> <a href="?refNo=10&#38;fileRef=TradeFair">Jalandhar</a></li><li class="GapR"> <a href="?refNo=11&#38;fileRef=TradeFair">NITJ</a></li><li class="GapR"> <a href="?refNo=12&#38;fileRef=TradeFair">GNDEC</a></li><li class="GapR"> <a href="?refNo=14&#38;fileRef=TradeFair">Call for Papers </a></li><li class="GapR"> <a href="?refNo=15&#38;fileRef=TradeFair">Who Should Participate</a></li><li class="GapR"> <a href="?refNo=16&#38;fileRef=TradeFair">Language and Venue</a></li><li class="GapR"> <a href="?refNo=21&#38;fileRef=TradeFair">Previous Congresses</a></li><li class="GapR"> <a href="?refNo=28&#38;fileRef=TradeFair">Ludhiana</a></li><li class="GapR"> <a href="?refNo=40&#38;fileRef=TradeFair">Congress Fees</a></li></ul>   </div>
+<div class="ColMid">
+
+    <!-- TradeFair.php -->
+   <div class= RowEvenC > <div class='bgRed'>Punjab</div><div class='bgGrey'>The Smiling Face of India</div></br>Punjab, located in the north west of India, with its capital at Chandigarh, is one of its most prosperous states. The five rivers Sutlej, Beas, Ravi, Chenab and Jhelum gave it its name 'punj-ab' or the 'land of five waters'. Punjab is the cradle of the Indus Valley Civilisation, more than 4000 years old. In 1947, at the end of British Rule, the Punjab was split between India and Pakistan. Some of the main cities in Indian Punjab are Amritsar, Jalandhar, Ludhiana and Patiala. Enriched with a distinct blend of rural and urban flavours, Punjab has a lot to offer to a tourist eye. It has a unique religious legacy with a host of Gurudwaras, the largest and the most prominent being The Golden Temple at Amritsar. The Jallianwala Bagh of Amritsar is another historical spot which reminds one of the Punjab's sacrifices to the freedom struggle of India. Punjab is called the Granary of India or India's bread-basket as it produces 60% of its wheat and 40% of its rice. The famous Bhakra Dam, described as The New Temple of Resurgent India by Pt. Jawahar Lal Nehru, the first Prime Minister of India, is located across Sutlej River near its border. Above all, the warmth and hospitality of the people are the main attractions in this region.</div><table><tr><td class='footerLogoH'><img src="400/UKI_GoldenTemple.jpg"width = "99%" alt ="image" > The GoldenTemple, Amritsar</td></tr></table>
+  
+   <!--<div class="ColLeft">   <?php// include 'LinksLeft.php';  ?>
+   </div>-->
+  
+
+ 
+
+
+</div>
+<div class="newFooter">
+
+
+<div class="footerLogo">
+
+<h2>Host Organisations</h2>
+
+<table class="aTableRai"><tr><td>
+
+<a href='http://www.nitj.ac.in' target='_blank' style='margin:10px'><img src="ukieri_logo/files/111.png" height = 60px  alt="logo" ></a>
+</td><td>
+<a class="footerLinks" href="?refNo=11&amp;fileRef=TradeFair">Dr B R Ambedkar National Institute of Technology,</a> <a class="footerLinks" href="?refNo=10&amp;fileRef=TradeFair">Jalandhar</a> 
+ <br/> <a class="footerLinks" href="?refNo=12&amp;fileRef=TradeFair">Guru Nanak Dev Engineering College, Ludhiana</a>
+</td><td>
+<a href='http://www.gndec.ac.in' target='_blank' style='margin:10px'><img src="ukieri_logo/files/mmmm.png" height = 60px  alt="logo" ></a>
+
+</tr></table>
+
+</div>
+<div class="footer"><div class='GapLarge'>
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+          src="https://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+
+<a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!">
+    </a>
+
+    </p> </div></div>
+</div>
+
+</table>
+</div>
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://ukiericoncretecongress.com/piwik/" : "http://ukiericoncretecongress.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://ukiericoncretecongress.com/piwik/piwik.php?idsite=2" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</div>
+</body>
+</html>
+
+
+
+
